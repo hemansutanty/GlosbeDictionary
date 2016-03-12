@@ -23,6 +23,11 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>1.0.0</version>
+      </plugin>
     </plugins>
     
   </build>
@@ -37,6 +42,41 @@
 		<artifactId>javax.servlet-api</artifactId>
 		<version>4.0.0-b01</version>
 	</dependency>
-	
+	<dependency>
+		<groupId>org.apache.tomcat.embed</groupId>
+		<artifactId>tomcat-embed-core</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
+    <dependency>
+		<groupId>org.apache.tomcat.embed</groupId>
+		<artifactId>tomcat-embed-logging-juli</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
+    <dependency>
+		<groupId>org.apache.tomcat.embed</groupId>
+		<artifactId>tomcat-embed-jasper</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
+    <dependency>
+		<groupId>org.apache.tomcat</groupId>
+		<artifactId>tomcat-jasper</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
+    <dependency>
+		<groupId>org.apache.tomcat</groupId>
+		<artifactId>tomcat-jasper-el</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
+    <dependency>
+		<groupId>org.apache.tomcat</groupId>
+		<artifactId>tomcat-jsp-api</artifactId>
+		<version>8.0.30</version>
+	</dependency>
+
   </dependencies>
 </project>
