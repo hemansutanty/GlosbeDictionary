@@ -1,4 +1,5 @@
-package launch;
+package hemansu.launch;
+
 import java.io.File;
 
 import org.apache.catalina.WebResourceRoot;
@@ -11,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String webappDirLocation = "src/main/webapp/";
+        String webappDirLocation = "WebContent";
         Tomcat tomcat = new Tomcat();
 
         //The port that we should run on can be set into an environment variable
