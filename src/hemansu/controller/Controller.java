@@ -16,7 +16,7 @@ import hemansu.model.WordBean;
 /**
  * Servlet implementation class Controller
  */
-@WebServlet("/Controller")
+@WebServlet(urlPatterns={"/Controller","/GlosbeDictionary/Controller"})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
