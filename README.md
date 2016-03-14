@@ -2,7 +2,9 @@
 
 A minimal dictionary to search the meanings of a word.
 
-####Instructions
+Want to see it in action.[Head over here](https://hemansutanty-glosbedictionary.herokuapp.com/)
+
+####Instructions(Local Deployement)
 
 1. Build the war file.(Choose any method of your choice).
 2. Deploy the war.
