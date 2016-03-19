@@ -31,7 +31,8 @@ public class FetchMeanings {
 			    int i=1;
 			    for (JsonValue item : meaningList){
 			        String meaning = item.asObject().get("text").asString();
-			        meanings.add("Meaning "+i+++": "+meaning);
+			        if(!meanings.contains("Meaning "+i+": "+meaning))
+			        	meanings.add("Meaning "+i+++": "+meaning);
 			    }
 	        }
 	        else{
