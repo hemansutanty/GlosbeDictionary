@@ -8,6 +8,7 @@
 	<title>Glosbe Dictionary</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.indigo-pink.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 	<style>
@@ -21,6 +22,10 @@
 		h3{
 			font-weight: bold;
 		}
+		.fa{
+			color: #f44336;
+		}
+		
 	</style>
 </head>
 <body>
@@ -45,7 +50,10 @@
   		<%=wordBeanObj.getMeaningsList().get(i) %>.<br>
   		<%}} %>
   	</div>
-	
-	
+	<br><br>
+	<div class="footer">
+			<p><a target="_blank" href="https://github.com/hemansutanty/GlosbeDictionary">For Nerds <i class="fa fa-github-alt"></a></i></p>
+			<p>Made with <i class="fa fa-heart"></i> by Hemansu</p>
+	</div>
 </body>
 </html>
