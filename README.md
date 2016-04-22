@@ -17,6 +17,7 @@ Want to see it in action.[Head over here](https://hemansutanty-glosbedictionary.
 1. [Glosbe Api](https://glosbe.com/a-api)
 2. [Minimal Json](https://github.com/ralfstx/minimal-json)
 3. [Material Design Lite](https://www.getmdl.io/index.html)
+4. [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
 ###The MIT License (MIT)
 
