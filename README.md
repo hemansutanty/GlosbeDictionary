@@ -1,10 +1,10 @@
-##GlosbeDictionary
+## GlosbeDictionary
 
 A minimal dictionary to search the meanings of a word.
 
 Want to see it in action.[Head over here](https://hemansutanty-glosbedictionary.herokuapp.com/)
 
-####Instructions(Local Deployement)
+#### Instructions(Local Deployement)
 
 1. Build the war file.(Choose any method of your choice).
 2. Deploy the war.
@@ -12,14 +12,14 @@ Want to see it in action.[Head over here](https://hemansutanty-glosbedictionary.
 3. Fire up your browser and type http://localhost/GlosbeDictionary.
 4. Start searching and start learning.
 
-####Thanks and Credits
+#### Thanks and Credits
 
 1. [Glosbe Api](https://glosbe.com/a-api)
 2. [Minimal Json](https://github.com/ralfstx/minimal-json)
 3. [Material Design Lite](https://www.getmdl.io/index.html)
 4. [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
-###The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c) 2016 Hemansu Kumar Tanty
 
